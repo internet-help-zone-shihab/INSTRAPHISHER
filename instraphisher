@@ -70,13 +70,14 @@ fi
 banner() {
     
 clear
+printf "\e[0m\n"
 printf "\e[0m\e[91m ▀█▀ ▒█▄░▒█ ▒█▀▀▀█ ▀▀█▀▀ ▒█▀▀█ ░█▀▀█  "
 printf "\e[0m\e[91m ▒█░ ▒█▒█▒█ ░▀▀▀▄▄ ░▒█░░ ▒█▄▄▀ ▒█▄▄█  "
 printf "\e[0m\e[91m ▄█▄ ▒█░░▀█ ▒█▄▄▄█ ░▒█░░ ▒█░▒█ ▒█░▒█  "
 
 
 
-
+printf "\e[0m\n"
 printf "\e[0m\e[91m ▒█▀▀█ ▒█░▒█ ▀█▀ ▒█▀▀▀█ ▒█░▒█ ▒█▀▀▀ ▒█▀▀█  "
 printf "\e[0m\e[91m ▒█▄▄█ ▒█▀▀█ ▒█░ ░▀▀▀▄▄ ▒█▀▀█ ▒█▀▀▀ ▒█▄▄▀  "
 printf "\e[0m\e[91m ▒█░░░ ▒█░▒█ ▄█▄ ▒█▄▄▄█ ▒█░▒█ ▒█▄▄▄ ▒█░▒█   "
@@ -94,8 +95,6 @@ printf " \e[34;1m    YOUTUBE   : INTERNET HELP ZONE     \e[0m\n"
 printf " \e[34;1m    GITHUB    :  https://github.com/internet-help-zone-shihab \e[0m\e[91m] \e[0m\n"
 printf " \e[34;1m    CHAKRD BY : FARHAN AHAMED          \e[0m\n"
 printf " \e[34;1m•◈•──────────•◈•WHITEDEVIL•◈•──────────•◈•\e[0m\n"
-printf "\e[0m\n"
-printf "    \e[0m\e[1;44m Advanced Phishing Tool with 30+ Templates\e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\e[91m    [\e[0m\e[96m BY \e[0m\e[91m: \e[0m\e[96mhttps://github.com/internet-help-zone-shihab \e[0m\e[91m] \e[0m\n"
 printf "\e[0m\n"
