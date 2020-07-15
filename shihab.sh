@@ -122,7 +122,6 @@ printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Type \e[1;96mbash instraphishe
 printf "\e[0m\n"
 printf "\e[0m\n"
 
-menu() {
 
 clear
 usearname : "internet"
