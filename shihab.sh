@@ -4,7 +4,7 @@ banner() {
 clear
 printf "\e[0m\n"
 printf " \e[34;1m•◈•──────────•◈•WHITEDEVIL•◈•──────────•◈•\e[0m\n"
-printf " \e[34;1m            WELCOME DEAR HACKERS          \e[0m\n"]
+printf " \e[34;1m            WELCOME DEAR HACKERS          \e[0m\n"
 printf " \e[34;1m•◈•──────────•◈•WHITEDEVIL•◈•──────────•◈•\e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\n"
